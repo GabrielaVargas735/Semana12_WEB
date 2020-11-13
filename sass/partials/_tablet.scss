@@ -1,0 +1,37 @@
+@import "variables";
+@media(max-width:1023px){
+    /*Header*/
+    .wraper.space-tablet{
+        >div{
+            padding:20px 0;
+        }
+    }
+
+    #menu{
+        display: $list;
+    }
+    /* Main content */
+    .section{
+        width:100%;
+    }
+    .section + .section{
+        margin-left: $zero;
+		margin-top: 15px;
+    }
+    /* Blog */
+    #blog-updates{
+		width: 100%;
+		margin-right: $zero;
+		float: $list;
+    }
+    /*Conect with us*/
+    #connect{
+		width: 100%;
+		float: $list;
+    }
+    /* Footer */
+	.footer-logo{
+		position: static;
+		margin-top: 15px;
+	}
+}

@@ -1,0 +1,11 @@
+@import "variables";
+@media(max-width: 767px){
+	.imagen{
+		width: 100%;
+		padding: $zero;
+		float: $list;
+	}
+	.imagen + .imagen{
+		margin-top: 15px;
+	}
+}

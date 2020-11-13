@@ -1,0 +1,11 @@
+.imagen{
+    width: 214.5px;
+    float: left;
+    border-bottom: none;
+}
+.imagen a, .imagen img{
+    display: block;
+}
+.imagen + .imagen{
+    margin-left: 34px;
+}
